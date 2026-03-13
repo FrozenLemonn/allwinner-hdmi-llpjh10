@@ -16,8 +16,7 @@ public class MainActivity extends Activity {
             // Create intent to launch the HDMI activity
             Intent intent = new Intent(Intent.ACTION_MAIN);
             intent.setComponent(new ComponentName(
-                "com.softwinner.awlivetv",
-                "com.softwinner.awlivetv.MainActivity"
+                "com.softwinner.awsource", "com.softwinner.awsource.MainActivity"
             ));
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             
