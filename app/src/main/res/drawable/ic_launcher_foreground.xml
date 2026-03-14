@@ -4,13 +4,30 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- Front view of an HDMI port -->
+    <!-- HDMI text label -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M20,40 L88,40 L78,68 L30,68 Z
-            M26,45 L34,45 L34,63 L26,63 Z
-            M36,45 L44,45 L44,63 L36,63 Z
-            M46,45 L54,45 L54,63 L46,63 Z
-            M56,45 L64,45 L64,63 L56,63 Z
-            M66,45 L74,45 L74,63 L66,63 Z" />
+        android:pathData="M20,20 H24 V38 H20 Z
+            M28,20 H32 V30 H36 V20 H40 V38 H36 V26 H32 V38 H28 Z
+            M44,20 H50 C54,20 58,22 58,30 C58,36 54,38 50,38 H44 Z
+            M62,20 H66 V38 H62 Z" />
+
+    <!-- Port outline -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18,42 L90,42 L82,76 L26,76 Z" />
+
+    <!-- Pin row -->
+    <path
+        android:fillColor="#1E1E1E"
+        android:pathData="M28,52 H80 V62 H28 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,54 H34 V60 H30 Z
+            M37,54 H41 V60 H37 Z
+            M44,54 H48 V60 H44 Z
+            M51,54 H55 V60 H51 Z
+            M58,54 H62 V60 H58 Z
+            M65,54 H69 V60 H65 Z
+            M72,54 H76 V60 H72 Z" />
 </vector>
