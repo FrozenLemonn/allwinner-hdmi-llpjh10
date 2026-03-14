@@ -1,37 +1,17 @@
 # Allwinner HDMI
 
-A simple Android app that automatically switches to HDMI on the Chengdu Hotack Technology Co., Ltd. [HY300 Pro+ Projector](https://gist.github.com/probonopd/3ad6b7777caea1503f00d5fe7710ad06) by launching the `com.softwinner.awlivetv/.MainActivity` activity.
+This application is designed to manage HDMI functionality on Allwinner devices. It provides tools and utilities to configure, control, and monitor HDMI output, making it easier for users to interact with HDMI settings.
+
+## Main Activity
+
+Upon launch, the app calls the primary activity responsible for initializing HDMI management. This activity handles detection of HDMI devices, applies user-selected configurations, and provides status updates.
 
 ## Features
 
-- Single-purpose app that launches HDMI on startup
-- Production-ready with signed APK builds
-- Automated CI/CD with GitHub Actions
-- Clean, minimal design with proper icon
+- Detects connected HDMI devices
+- Allows configuration of HDMI settings
+- Monitors HDMI status and events
 
-## Building
+## Usage
 
-The app is automatically built and signed on GitHub Actions when code is pushed to the main branch.
-
-To build locally:
-```bash
-./gradlew assembleRelease \
-  -PKEYSTORE_FILE=path/to/keystore \
-  -PKEYSTORE_PASSWORD=password \
-  -PKEY_ALIAS=alias \
-  -PKEY_PASSWORD=password
-```
-
-## Installation
-
-Download the latest release APK from the [Releases](https://github.com/probonopd/PRIVATE-allwinner-HDMI/releases) page and install it on your Android device.
-
-## How it works
-
-When you launch the HDMI app, it immediately starts the Allwinner HDMI activity (`com.softwinner.awlivetv/.MainActivity`) and closes itself. This provides a seamless transition to the HDMI input.
-
-## Requirements
-
-- Android 5.0 (API 21) or higher
-- Device with Allwinner chipset and HDMI support
-- The `com.softwinner.awlivetv` app must be installed on the device
+Simply start the application to access HDMI management features. The main activity will guide you through available options.

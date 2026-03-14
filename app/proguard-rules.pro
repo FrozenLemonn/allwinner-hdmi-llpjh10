@@ -3,7 +3,7 @@
 # in [sdk]/tools/proguard/proguard-android.txt
 
 # Keep the main activity
--keep public class com.github.probonopd.hdmi.MainActivity {
+-keep public class com.github.frozenlemonn.sourceselector.MainActivity {
     public *;
 }
 

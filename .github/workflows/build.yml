@@ -65,5 +65,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         set -e
-        wget -c https://github.com/probonopd/uploadtool/raw/master/upload.sh
-        bash upload.sh app/build/outputs/apk/*/*.apk
+        bash ./upload.sh app/build/outputs/apk/*/*.apk

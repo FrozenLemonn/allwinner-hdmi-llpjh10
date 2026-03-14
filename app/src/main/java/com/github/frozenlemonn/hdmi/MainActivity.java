@@ -1,4 +1,4 @@
-package com.github.probonopd.hdmi;
+package com.github.frozenlemonn.sourceselector;
 
 import android.app.Activity;
 import android.content.ComponentName;
